@@ -7,8 +7,7 @@
 ------------ | -------------
 ![Logo](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript/blob/master/Maps/folder-small.jpg) | ![Specs](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript/blob/master/Maps/Supported.png)
 
-
-### LATEST BUILD | [v4.0.0](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript/releases/latest "Latest Official Build") | Updated for [Elite Dangerous](https://www.elitedangerous.com/ "Official Website") Beyond 3.3 "Chapter 4" Patch ###
+### LATEST BUILD | [v4.2.0](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript/releases/latest "Latest Official Build") | Updated for [Elite Dangerous](https://www.elitedangerous.com/ "Frontier's Official Website"):  Beyond 3.4+  "April Update" ###
 
 ### REQUIREMENTS | TARGET Software, Drivers & Firmware, 2018 Update ([v3.0.18.328](https://support.thrustmaster.com/en/product/hotaswarthog-en/ "Official Thrustmaster Warthog Support Portal") _or higher_) ###
 
@@ -16,7 +15,7 @@
 
 ## Table of Contents ##
 
-[Latest Release](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript/releases/latest "Latest Official Build & Release Notes") | [Feature List](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript/blob/beta/Readme.md#enhanced-features "Full Profile Feature List") | [Legend](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript#legend "Legend Table") | [Layout Maps](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript/tree/master/Maps "Reference Maps") | [Installation](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript#installation "Installation Guide") | [User Preferences](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript/tree/master/Warthog%20Script#user-preferences--table-of-contents "User Preferences Guide") | [Acknowledgements](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript/tree/master/Warthog%20Script#script-acknowledgements "Acknowledgements")
+[Latest Release](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript/releases/latest "Latest Official Build & Release Notes") | [Feature List](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript#enhanced-features "Full Profile Feature List") | [Legend](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript#legend "Legend Table") | [Layout Maps](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript/tree/master/Maps "Reference Maps") | [Installation](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript#installation "Installation Guide") | [User Preferences](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript/tree/master/Warthog%20Script#user-preferences--table-of-contents "User Preferences Guide") | [Custom Plates](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript/blob/master/Maps/Readme.md#custom-warthog-throttle-plates "Custom Warthog Throttle HOTAS Panels") | [Acknowledgements](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript/tree/master/Warthog%20Script#script-acknowledgements "Acknowledgements")
 
 [Steam Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=769637037 "Comprehensive Steam Guide") | [Frontier Forums](https://forums.frontier.co.uk/showthread.php/293027-Aussiedroid-s-Enhanced-Thrustmaster-Warthog-Script "Official Frontier Forums Thread") | [ModDB](https://www.moddb.com/games/elite-dangerous/downloads/aussiedroids-enhanced-warthog-script "ModDB.com") | [Imgur](https://aussiedroid.imgur.com/ "Imgur.com Gallery") | [Script Files](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript/tree/master/Warthog%20Script "Warthog Script Files") | [Binding Files](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript/tree/master/ED%20Bindings "ED Bindings Files") | [TrackIR Profile](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript/tree/master/TrackIR "TrackIR Settings") | [ED-BAT Launcher](https://github.com/Aussiedroid/AD-EDWarthogEnhancedScript/tree/master/ED%20Startup%20Batch%20Script "ED-BAT Launcher")
 
@@ -94,11 +93,11 @@ To further enhance the Modifier button system, some buttons have also been desig
 
 ## Reference Maps: ##
 
-![Joystick](https://steamuserimages-a.akamaihd.net/ugc/980002135582649779/9C9D3449426CD4FF2085B6AB95ECE0BF5EB8EDDE/ "Joystick")
+![Joystick](https://steamuserimages-a.akamaihd.net/ugc/814499055605975953/038DB3B4E1B37F6E6F1B2841334BD405283FCEC6/ "Joystick")
 
 ![Throttle Base](https://steamuserimages-a.akamaihd.net/ugc/980002135582653970/604A396AD537FADA0CF4D5CF68CD1064A94A3765/ "Throttle Base")
 
-![Throttle Arm](https://steamuserimages-a.akamaihd.net/ugc/980002135582654810/130BAA7CD975EB055437884C303A59CA157DE689/ "Throttle Arm")
+![Throttle Arm](https://steamuserimages-a.akamaihd.net/ugc/771726115414976689/421594AD1B8AE2033BA1E1D3C44F235E1C852CA3/ "Throttle Arm")
 
 
 ## ##
@@ -106,25 +105,27 @@ To further enhance the Modifier button system, some buttons have also been desig
 ## Installation: ##
 
     1. Download & Extract the latest zip file pack. The Warthog Script can be run from any location. 
-       All files need to be in the same folder though.
-    2. Open TARGET Script Editor, Compile & then Edit AD_EDUserPrefs_v4.x.x.tmh. (Can also be Run from TARGET GUI)
+       All script files need to be in the same folder though.
+    2. Open TARGET Script Editor, Open & Compile AD_ED_v4.x.x & then Edit AD_EDUserPrefs_v4.x.x.tmh.
+         Can be Run from TARGET GUI later.
     3. Edit User Preferences file, primarily the 'Core Hardware' variables (rest can be reconfigured on later runs)
-       Save & Close TARGET Script Editor when done editing.
+       SAVE & Close TARGET Script Editor when done editing.
          Note: Most commands can be tested prior to starting the game using the Event Tester & Device Analyzer.
-    4. Copy the Elite Dangerous Profile to:
+    4. Copy the Elite Dangerous Profile (.binds) from ED Bindings folder to:
          C:\Users\USERNAME\AppData\Local\Frontier Developments\Elite Dangerous\Options\Bindings
-    5. Copy the TrackIR Profile to:
+    5. Copy the TrackIR Profile (Elite.Dangerous.4.x.AD.xml) from the TrackIR folder to:
          C:\Users\USERNAME\AppData\Roaming\NaturalPoint\TrackIR 5\Profiles
-    6. Set the Hotkeys in TrackIR; Pause Key to PAUSE, and Center to END. (Tick 'Exclusive' in TrackIR to autoload) 
-    7. Set NVidia/AMD Capture Last 20mins hotkey to ALT+F11 (as required). (Default causes conflict)
-    8. Map any other 3rd Party Keys such as Voice Comms (as required). (Setup Microphone Behaviour User Prefs)
-    9. Edit ED-BAT Batch File and update path/locations (if using auto-start batch sequence, else skip).
-    10.Open TARGET GUI & Run, and then Start ED Launcher or ED-BAT file.
-    11.Remember to select the AD Enhanced Warthog 4.x.x profile in Elite Dangerous Config Menu & Apply.
-    12.*If you are not running MFG Crosswind Pedals, map the missing axis/buttons under 'Other Mappings/Pedals' in
-       the Legend in ED Config Menu, once loaded.*
+    6. Set the Hotkeys in TrackIR; Pause Key to PAUSE, and Center to END.
+         Tick 'Exclusive' in TrackIR to autoload if you want. 
+    7. Set NVidia/AMD Capture Last 20mins Hotkey to ALT+F11 (as required). (Default causes conflict)
+    8. Map any other 3rd Party Keybinds such as Voice Comm Apps (as required). (Setup Mic Behaviour in User Prefs)
+    9. Edit ED-BAT Batch File and update the path/locations for any apps you use (as required).
+    10.Open TARGET GUI & Run, and then Start ED Launcher OR alternatively run it automatically via the ED-BAT file.
+    11.PLAY, and remember to select the AD Enhanced Warthog 4.x.x bindings in Elite Dangerous Config Menu, & APPLY.
+    12.*If you are NOT running MFG Crosswind Pedals, map the missing axis/buttons under 'Other Mappings/Pedals' in
+       the Legend in ED Controls Config to your own devices. Remember to Test!*
     
-       Always make sure the script is running as-well-as any other 3rd party tools prior to starting Elite Dangerous.
+       ALWAYS make sure the script is running as-well-as any other 3rd party tools prior to starting Elite Dangerous.
 
 
 #### Example of Successful Script Run: ####
