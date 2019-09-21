@@ -30,6 +30,12 @@
 			SetSCurve(&Joystick, JOYX, 0, 0, 0, 0, 0);
 		MapAxis(&Joystick, JOYY, DX_Y_AXIS, AXIS_NORMAL, MAP_ABSOLUTE);
 			SetSCurve(&Joystick, JOYY, 0, 0, 0, 0, 0); }
+			
+	int initT1600L() {
+		SetSCurve(&T16000L, JOYX, 0, 25, 0, 0, 0);
+		SetSCurve(&T16000L, JOYY, 0, 25, 0, 0, 0);
+		MapKey(&T16000L, TG1, SecondaryFire);
+	}	
 
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------//

@@ -42,6 +42,7 @@
 	int main() {														// Exclude Hardware from Virtual Device & Manage Additional Devices
 		Configure(&HCougar, MODE_EXCLUDED);
 		Configure(&T16000, MODE_EXCLUDED);
+		Configure(&T16000L, MODE_EXCLUDED);
 		if(UseMFD == 0) {												// No MFDs (Ignore configuring MFDs unless set in User Preferences)
 			Configure(&LMFD, MODE_EXCLUDED);
 			Configure(&RMFD, MODE_EXCLUDED); }
@@ -104,6 +105,7 @@
 	// HARDWARE CONFIG //
 	initJoystickAxis();																		// Initiate HOTAS Axis Mappings
 	initThrottleAxis();
+	initT1600L();
 
 	if(UseMFD > 0)			  initRightMFD();												// Initiate the First MFD Only		(Initialise via MAP MFD CONTROLS section below) *UNTESTED*
 	if(UseMFD > 1)			  initLeftMFD();												// Initiate the First+Second MFD	(Initialise via MAP MFD CONTROLS section below) *UNTESTED*
